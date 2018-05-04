@@ -1,5 +1,12 @@
-<?php
+<!DOCTYPE html>
+<html>
 
-include_once 'config/db_local.php';
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>下载</title>
+</head>
 
-print_r($config['database']);
+<body>
+  <a href="http://tadown.com/fs/8l1e0iff5ednbg8dada6/" target="_blank">点击进入下载－京东阅读.apk</a><br />
+</body>
+</html>

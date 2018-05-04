@@ -313,7 +313,7 @@
 //            遵循 layui 的模块规范建立一个入口文件，并通过 layui.use() 方式来加载该入口文件
             layui.config({
                 base: './res/js/modules/' //你存放新模块的目录，注意，不是layui的模块目录
-            }).use('flyerjp-1.0.0.min'); //加载入口
+            }).use('flyerjp-1.0.1.min'); //加载入口
         </script>    
 
     </body>

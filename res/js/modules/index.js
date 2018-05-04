@@ -218,6 +218,8 @@ layui.define(['layer', 'form', 'element', 'util'], function (exports) {
 //    将字符串分割成数组在随机排序在合并成数组返回
     function getshuffleString(str) {
         var arr = str.split('\n');
+//        去空
+        arr=$.grep(arr, function(n) {return $.trim(n).length > 0;});
         arr = arr.shuffle();
         str = arr.join('\n');
         return str;
